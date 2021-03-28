@@ -23,7 +23,7 @@ int main() {
         case 0 : {
             cout << "Cam on quy khach!!" << endl;
             break;
-        }
+            }
         
         case 1 : {
             cout << "Nhap so luong muon mua: " << endl;
