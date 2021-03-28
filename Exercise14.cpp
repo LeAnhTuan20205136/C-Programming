@@ -15,7 +15,7 @@ using namespace std;
 int main() {
     string name;
     int thoitiet, hoatdong;
-    cout << "Nhap ten cua ban: " << endl;
+    cout << "Nhap ten cua ban : " << endl;
     cin >> name;
     cout << "Chao " << name << "! Hay chon 1 trong 2 dang thoi tiet 1. hot va 2. snow : " << endl;
     cin >> thoitiet;
