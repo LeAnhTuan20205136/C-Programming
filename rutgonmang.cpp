@@ -8,7 +8,7 @@ int main() {
 	cout << "nhap so phan tu: " << endl;
 	cin >> n;
 	cout << "nhap day so input: " << endl;
-	for (int i; i < n; i++){
+	for (int i = 0; i < n; i++){
 		cin >> a[i];
 	}
 	cout << "Output la:" << a[0] << " ";
