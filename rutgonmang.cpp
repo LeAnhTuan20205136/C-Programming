@@ -14,8 +14,9 @@ int main() {
 	cout << "Output la:" << a[0] << " ";
 	for (int i = 1 ; i < n; i++){
 		for(int j = 0; j < i; j++){
-			if(a[j] == a[i]){
+			if(a[j] == a[i]) {
 				kt = false;
+				break;
 			}			
 		}
 		if (kt == true){
